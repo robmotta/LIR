@@ -59,7 +59,7 @@ button.tp-btn-default{height: 48px;}
 ::selection { background: #00aeaf; color: #fff;}
 .no-padding { padding-left: 0px; padding-right: 0px;}
 /*-------- Section Space CSS -------*/
-.spacer { padding-top: 80px; padding-bottom: 80px;}
+.spacer { padding-top: 80px;}
 /*------- Title CSS --------*/
 .tp-title{margin-bottom: 30px;}
 .tp-title-center{margin-bottom: 30px; text-align: center;}
@@ -236,7 +236,7 @@ ul.listnone{list-style: none; margin: 0px; }
 .vendor-detail .caption { padding: 30px; display: inline-block;}
 .vendor-detail .location{font-size: 14px; margin-bottom: 10px;}
 .vendor-image { position: relative; overflow: hidden;}
-.vendor-image img { -webkit-transform: scale(1.2); transform: scale(1.2); -webkit-transition: all .5s ease; transition: all .5s ease; opacity: .9;}
+.vendor-image img { -webkit-transform: scale(1.2); transform: scale(1.2); -webkit-transition: all .5s ease; transition: all .5s ease; opacity: 1}
 .vendor-image a:hover img { -webkit-transform: scale(1); transform: scale(1); opacity: 1;}
 .vendor-price{background-color: #fcfbf9;padding: 9px 29px; border-top: 1px solid #e9e6e0;}
 .vendor-price .price {font-family: 'Montserrat', sans-serif; text-transform: uppercase; color: #3c3634 }
