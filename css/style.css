@@ -193,7 +193,11 @@ ul.listnone{list-style: none; margin: 0px; }
 .couple-icon, .vendor-icon{margin-bottom: 30px;}
 .couple-icon img, .vendor-icon img{width: 160px;}
 /*---------Template Footer ----------*/
+<<<<<<< HEAD
 .tp-btn-lg.footer-contact{margin-top:20px;}
+=======
+.sub-email{placeholder:"hello";}
+>>>>>>> 101efbc21fcd026f9d134d792362c0a8dda610f2
 .footer{ background-color: #322e2c; padding-top: 80px; padding-bottom: 60px;}
 .ft-aboutus{}
 .newsletter{}

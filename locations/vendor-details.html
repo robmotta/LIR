@@ -429,9 +429,9 @@
         <h2>Newsletter</h2>
         <form>
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Enter E-Mail Address" required>
+            <input type="email" class="form-control" placeholder="Enter E-Mail Address" required>
             <span class="input-group-btn">
-            <button class="btn tp-btn-default tp-btn-lg" type="button">Submit</button>
+            <button id="sub-button" class="btn tp-btn-default tp-btn-lg" type="button">Submit</button>
             </span> </div>
         </form>
         <div class="social-icon"><!-- social icon -->
@@ -495,6 +495,13 @@ var infowindow = new google.maps.InfoWindow({
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<script type="text/javascript"> 
+  
+  $('#sub-button').click(function(){
+    $(this).css('placeholder', 'Sour Email Has been ssent, thanks!')
+  })    
 </script>
 </body>
 </html>
