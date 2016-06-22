@@ -366,9 +366,9 @@
         <h2>Newsletter</h2>
         <form  >
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Enter E-Mail Address" required>
+            <input type="text" id="sub-text" class="form-control" placeholder="Enter E-Mail Address" required>
             <span class="input-group-btn">
-            <button class="btn tp-btn-default tp-btn-lg" type="button">Submit</button>
+            <button id="sub-button" class="btn tp-btn-default tp-btn-lg" type="button">Submit</button>
             </span> </div>
           <!-- /input-group --> 
           
@@ -404,5 +404,17 @@
 <script type="text/javascript" src="js/testimonial.js"></script> 
 <script src="js/jquery.sticky.js"></script> 
 <script src="js/header-sticky.js"></script>
+
+<script type="text/javascript"> 
+  
+  $(document).ready(function(){
+      $('#sub-button').click(function(){
+        $('#sub-text').val('')
+        $('#sub-text').attr('placeholder','Thank you for signing up!')
+      });
+
+  })
+      
+</script>
 </body>
 </html>
