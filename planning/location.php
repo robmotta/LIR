@@ -29,12 +29,12 @@
 </head>
 <body>
 
-<div class="tp-page-head"><!-- page header -->
+<div class="tp-page-head-location"><!-- page header -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">
-          <h1>Select your Location</h1>
+          <h1 style="text-align: center;">Select your Location</h1>
         </div>
       </div>
     </div>
