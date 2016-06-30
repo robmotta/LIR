@@ -1,3 +1,12 @@
+<?php
+  session_start();
+
+  $_SESSION['cname'] =  $_POST['name'];
+  $_SESSION['email'] =  $_POST['email'];
+
+  var_dump($_SESSION)
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +37,9 @@
     <![endif]-->
 </head>
 <body>
-
+<?php 
+  include '../snippets/menu.html';
+?>
 <div class="tp-page-head"><!-- page header -->
   <div class="container">
     <div class="row">
@@ -46,8 +57,11 @@
     <div class="row">
       <div class="col-md-8">
         <ol class="breadcrumb">
-          <li><a href="#">Home</a></li>
-          <li class="active">Choose the perfect venue for your wedding </li>
+          <li><a href="index.php">Get Started</a></li>
+          <li class="active">Choose your location </li>
+          <li><a href="#">Decoration</a></li>
+          <li><a href="#">Summary</a></li>
+          <li><a href="#">Save The Date</a></li>
         </ol>
       </div>
     </div>
@@ -72,7 +86,7 @@
               <div class="product-info">
                 <h2><a href="#" class="title">Grand Roatan</a></h2>
                     <p> Please select the amount of guests you are planning to have at your event</p>
-                    <select id="guest" name="guest" class="form-control">
+                    <select name="guest" class="form-control guestnum">
                       <option value="0">1 to 50</option>
                       <option value="1">50  to 75</option>
                       <option value="2">75 to 100</option>
@@ -80,6 +94,8 @@
                       <option value="4">150 - 200</option>
                       <option value="5">200 +</option>
                     </select>
+                    <br />
+                    <p class="price pull-right"></p>
                 </div>
                 <p> <a href="#">More details...</a></p>
                 
@@ -94,7 +110,7 @@
               <div class="product-info">
                 <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
                 <p> Please select the amount of guests you are planning to have at your event</p>
-                  <select id="guest" name="guest" class="form-control">
+                  <select name="guest" class="form-control guestnum">
                     <option value="0">1 to 50</option>
                     <option value="1">50  to 75</option>
                     <option value="2">75 to 100</option>
@@ -102,6 +118,8 @@
                     <option value="4">150 - 200</option>
                     <option value="5">200 +</option>
                   </select>
+                  <br />
+                  <p class="price pull-right"></p>
               </div>
                 <p> <a href="#">More details...</a></p>
             
@@ -115,13 +133,23 @@
               <div class="product-wrap"><img src="../images/product-3.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title">Mayan Princess</a></h2>
-                <p class="price">$500–$1,500</p>
+                <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
+                <p> Please select the amount of guests you are planning to have at your event</p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+                  <br />
+                  <p class="price pull-right"></p>
+              </div>
                 <p> <a href="#">More details...</a></p>
                 
                 <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
-                <a href="#" class="btn tp-btn-light"><i class="fa fa-exchange"></i></a> 
-                <a href="#" class="btn tp-btn-light"><i class="fa fa-heart"></i></a> </div>
+                
             </div>
             <!-- product box end -->
             <div class="col-md-3 product-box"> <!-- product box start --> 
@@ -129,13 +157,21 @@
               <div class="product-wrap"><img src="../images/product-4.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title">Pristine Bay</a></h2>
-                <p class="price">$1500–$3,500</p>
+                <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
+                <p> Please select the amount of guests you are planning to have at your event</p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
                 <p> <a href="#">More details...</a></p>
                 
                 <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
-                <a href="#" class="btn tp-btn-light"><i class="fa fa-exchange"></i></a> 
-                <a href="#" class="btn tp-btn-light"><i class="fa fa-heart"></i></a> </div>
             </div>
             <!-- product box end -->
             
@@ -147,11 +183,11 @@
         </div>
         <!-- shop listing end -->
         <div class="col-md-12 price-filter widget">
-              <div class="well-box">
-                <h2>Total Price</h2>
-                <div class="price_slider_amount">
-                  <p>Price:  $1500</p>
+              <div class="well-box pull-right" style="width:100%">
+                <div class="price_slider_amount pull-right" style="margin-top:0px;">
+                  
                   <button type="submit" class="btn tp-btn-default"><span>Next Step</span></button>
+                  <p>Event Total:  $1500</p>
                 </div>
               </div>
             </div>
@@ -185,7 +221,7 @@
       </div>
       <div class="col-md-4 newsletter">
         <h2>Newsletter</h2>
-        <form  >
+        <form >
           <div class="input-group">
             <input type="text" id="sub-text" class="form-control" placeholder="Enter E-Mail Address" required>
             <span class="input-group-btn">
@@ -215,11 +251,36 @@
   </div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-<script src="js/jquery.min.js"></script> 
+<script src="../js/jquery.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/nav.js"></script> 
-<script src="js/jquery.sticky.js"></script> 
-<script src="js/header-sticky.js"></script>
+<script src="../js/bootstrap.min.js"></script> 
+<script src="../js/nav.js"></script> 
+<script src="../js/jquery.sticky.js"></script> 
+<script src="../js/header-sticky.js"></script>
+
+<script type="text/javascript">
+  function grprices(){
+    if(guests==1){
+
+    }else if(guests==2){
+      
+    }else if(guests==3){
+      
+    }
+  }
+
+  $(document).ready(function(){
+     $('.guestnum').change(function(){
+        var guests = $(this).val();
+        alert(guests);
+        if(guests == 1){
+            $(this).parent().find('p.price').text('US$ 500');
+        }
+        if(guests == 2){
+            $(this).parent().find('p.price').text('US$ 700');
+        }
+     });
+  });
+</script>
 </body>
 </html>
