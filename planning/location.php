@@ -40,7 +40,7 @@
 <?php 
   include '../snippets/menu.html';
 ?>
-<div class="tp-page-head"><!-- page header -->
+<div class="tp-page-head"><!-page header -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -136,9 +136,9 @@
                 <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
                 <p> Please select the amount of guests you are planning to have at your event</p>
                   <select id="guest" name="guest" class="form-control guestnum">
-                    <option value="0">1 to 50</option>
-                    <option value="1">50  to 75</option>
-                    <option value="2">75 to 100</option>
+                    <option value="0">1 - 50</option>
+                    <option value="1">50 - 75</option>
+                    <option value="2">75 - 100</option>
                     <option value="3">100 - 150</option>
                     <option value="4">150 - 200</option>
                     <option value="5">200 +</option>
@@ -173,13 +173,8 @@
                 
                 <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
             </div>
-            <!-- product box end -->
-            
-           
-            <!-- product box end -->
-            
+          <!-- product box end -->
           <!-- products ends--> 
-          
         </div>
         <!-- shop listing end -->
         <div class="col-md-12 price-filter widget">
