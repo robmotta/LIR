@@ -752,7 +752,745 @@
                 <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
             </div>
           </div>
-            <!-- product box end -->    
+          <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+
+            <h1>Table Props</h1>
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-37.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Squared Mirror Base</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-38.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Octagonal Mirror Base</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-39.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Cupcake Makeup Holder </a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-40.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Circular Three-Layered Holder</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+          </div>
+            <!-- product box end -->
+                    <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-41.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Woven Basket Set</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-42.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Aluminum Bowls</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-43.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Medium Base with Flowers</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-44.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Candle Stick</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-45.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Medium Circular Base with Crystals</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-46.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Wavy Base</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+          
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+
+            <h1>Plate Setup</h1>
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-47.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Purple Base Plate</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-48.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Golden Base Plate</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-49.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">White China</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-50.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Wine Glass</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-51.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Water/Drink Glass</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-52.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Gloden Nakpkin Brace</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-53.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Beaded Napkin Brace</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-54.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Clear Napkin Brace</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-55.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Silver Fork</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-56.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Silver Knife</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-57.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Silver Spoon</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+            </div>
+
+
+            <h1>Event Decoration</h1>
+           <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-58.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Egg LED Light</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-59.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Tall LED Light</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-60.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Black Candle Lantern</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-61.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Tall Candle Lantern</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-62.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Wooden Envelop Chest</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-63.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">White Metal Cage Decoration</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-64.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Wood Decoration Blocks</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-65.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Lantern Holder</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+                      <div class="row products">
+            
+            <!-- product box end -->
+            <!-- product box end -->
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-66.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Orange/Pink Curtain</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+             <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-67.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Yellow Curtain</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-68.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">White Translucent Curtain</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
+
+            <div class="col-md-3 product-box"> <!-- product box start --> 
+              <a href="#">
+              <div class="product-wrap"><img src="../images/product-69.jpg" alt="" class="img-responsive"></div>
+              </a>
+              <div class="product-info">
+                <h2><a href="#" class="title">Light Blue Curtain</a></h2>
+                <p></p>
+                  <select id="guest" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
+                    <option value="3">100 - 150</option>
+                    <option value="4">150 - 200</option>
+                    <option value="5">200 +</option>
+                  </select>
+              </div>
+              <p class="price pull-right"></p>
+                
+                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+            </div>
         </div>
         <!-- shop listing end -->
         <div class="col-md-12 price-filter widget">
