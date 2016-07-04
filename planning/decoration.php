@@ -1,10 +1,9 @@
 <?php
   session_start();
+  $_SESSION['location'] = $_POST['resort'];
+  $_SESSION['price'] = $_POST['price'];
 
-  $_SESSION['cname'] =  $_POST['name'];
-  $_SESSION['email'] =  $_POST['email'];
-
-  var_dump($_SESSION)
+  var_dump($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Choose Location</title>
+<title>Decoration</title>
 
 <!-- Bootstrap -->
 <link href="../css/bootstrap.min.css" rel="stylesheet">
@@ -40,12 +39,12 @@
 <?php 
   include '../snippets/menu.html';
 ?>
-<div class="tp-page-head"><!-page header -->
+<div class="tp-page-head">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">
-          <h1>Select your Location</h1>
+          <h1>Select your location</h1>
         </div>
       </div>
     </div>
@@ -58,8 +57,8 @@
       <div class="col-md-8">
         <ol class="breadcrumb">
           <li><a href="index.php">Get Started</a></li>
-          <li class="active">Choose your location </li>
-          <li><a href="#">Decoration</a></li>
+          <li><a href="location.php">Choose your location</a></li>
+          <li class="active">Decoration</li>
           <li><a href="#">Summary</a></li>
           <li><a href="#">Save The Date</a></li>
         </ol>
@@ -138,7 +137,7 @@
               <div class="product-wrap"><img src="../images/product-9.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title">Flower Top & White Gazebo</a></h2>
+                <h2><a href="#" class="title">Flower Top &amp; White Gazebo</a></h2>
                     <p> Bamboo frame covered with white fabric and a floral top arrangement.</p>
                 </div>
                 
@@ -163,7 +162,7 @@
               <div class="product-wrap"><img src="../images/product-11.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title"> Blue & White Wood Gazebo</a></h2>
+                <h2><a href="#" class="title"> Blue &amp; White Wood Gazebo</a></h2>
                 <p>Wood frame decorated with blue and white fabrics and a centered floral arrangement</p>
               </div>
               
