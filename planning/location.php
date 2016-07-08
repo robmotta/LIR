@@ -3,8 +3,6 @@
 
   $_SESSION['cname'] =  $_POST['name'];
   $_SESSION['email'] =  $_POST['email'];
-
-  var_dump($_SESSION)
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +38,7 @@
 <?php 
   include '../snippets/menu.html';
 ?>
-<div class="tp-page-head"><!-page header -->
+<div class="tp-page-head"><!-- page header -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -76,6 +74,7 @@
           <div class="row">
             <!-- showing result end -->
             <!-- Order sorting end --> 
+            <p class="pull-right" style="font-size:150%;"><strong>Event Total:  $<span class="total">0</span></strong></p>
           </div>
           <!-- products -->
           <div class="row products">
@@ -85,8 +84,8 @@
               </a>
               <div class="product-info">
                 <h2><a href="#" class="title">Grand Roatan</a></h2>
-                    <p> Please select the amount of guests you are planning to have at your event</p>
-                    <select name="guest" class="form-control guestnum">
+                    <p class="tomorrow"> Please select the amount of guests you are planning to have at your event</p>
+                    <select id="gr" name="guest" class="form-control guestnum">
                       <option value="0">1 to 50</option>
                       <option value="1">50  to 75</option>
                       <option value="2">75 to 100</option>
@@ -94,12 +93,13 @@
                       <option value="4">150 - 200</option>
                       <option value="5">200 +</option>
                     </select>
+                    <input type="hidden"  name="" />
                     <br />
-                    <p class="price pull-right"></p>
+                    <p class="pull-right price">US$ 500</p>
                 </div>
                 <p> <a href="#">More details...</a></p>
                 
-                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                <a id="gr-a" class="btn add-event tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
             </div>
             <!-- product box end -->
             
@@ -110,7 +110,7 @@
               <div class="product-info">
                 <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
                 <p> Please select the amount of guests you are planning to have at your event</p>
-                  <select name="guest" class="form-control guestnum">
+                  <select id="pbh" name="guest" class="form-control guestnum">
                     <option value="0">1 to 50</option>
                     <option value="1">50  to 75</option>
                     <option value="2">75 to 100</option>
@@ -119,11 +119,11 @@
                     <option value="5">200 +</option>
                   </select>
                   <br />
-                  <p class="price pull-right"></p>
+                  <p class="price pull-right">US$ 500</p>
               </div>
                 <p> <a href="#">More details...</a></p>
             
-                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                <a id="pbh-a" class="add-event btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
               
             </div>
             <!-- product box end -->
@@ -133,22 +133,22 @@
               <div class="product-wrap"><img src="../images/product-3.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
+                <h2><a href="#" class="title">Mayan Princess</a></h2>
                 <p> Please select the amount of guests you are planning to have at your event</p>
-                  <select id="guest" name="guest" class="form-control guestnum">
-                    <option value="0">1 - 50</option>
-                    <option value="1">50 - 75</option>
-                    <option value="2">75 - 100</option>
+                  <select id="myp" name="guest" class="form-control guestnum">
+                    <option value="0">1 to 50</option>
+                    <option value="1">50  to 75</option>
+                    <option value="2">75 to 100</option>
                     <option value="3">100 - 150</option>
                     <option value="4">150 - 200</option>
                     <option value="5">200 +</option>
                   </select>
                   <br />
-                  <p class="price pull-right"></p>
+                  <p class="price pull-right">US$ 500</p>
               </div>
                 <p> <a href="#">More details...</a></p>
                 
-                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                <a id="myp-a" class="add-event btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
                 
             </div>
             <!-- product box end -->
@@ -157,9 +157,9 @@
               <div class="product-wrap"><img src="../images/product-4.jpg" alt="" class="img-responsive"></div>
               </a>
               <div class="product-info">
-                <h2><a href="#" class="title">Paradise Beach Hotel</a></h2>
+                <h2><a href="#" class="title">Pristine Bay Resort</a></h2>
                 <p> Please select the amount of guests you are planning to have at your event</p>
-                  <select id="guest" name="guest" class="form-control guestnum">
+                  <select id="pbyr" name="guest" class="form-control guestnum pbh ">
                     <option value="0">1 to 50</option>
                     <option value="1">50  to 75</option>
                     <option value="2">75 to 100</option>
@@ -167,22 +167,32 @@
                     <option value="4">150 - 200</option>
                     <option value="5">200 +</option>
                   </select>
+                  <br />
+                  <p class="price pull-right">US$ 500</p>
               </div>
-              <p class="price pull-right"></p>
                 <p> <a href="#">More details...</a></p>
                 
-                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                <a id="pbyr-a" class="add-event btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
             </div>
-          <!-- product box end -->
+            <!-- product box end -->
+            
+           
+            <!-- product box end -->
+            
           <!-- products ends--> 
+          
         </div>
         <!-- shop listing end -->
         <div class="col-md-12 price-filter widget">
+            <div class="step-overlay col-md-12"></div>
               <div class="well-box pull-right" style="width:100%">
                 <div class="price_slider_amount pull-right" style="margin-top:0px;">
-                  
-                  <button type="submit" class="btn tp-btn-default"><span>Next Step</span></button>
-                  <p>Event Total:  $1500</p>
+                  <form action="decoration.php" method="POST">
+                    <input type="hidden" name="resort" />
+                    <input type="hidden" name="price" />
+                    <input type="hidden" name="subtotal" />
+                    <button type="submit" class="btn tp-btn-default"><span>Next Step</span></button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -254,26 +264,122 @@
 <script src="../js/header-sticky.js"></script>
 
 <script type="text/javascript">
-  function grprices(){
-    if(guests==1){
-
+  function grprices(guests){
+    var price;
+    if(guests==0){
+      price = '500';
+    }else if(guests==1){
+      price = '700';
     }else if(guests==2){
-      
+      price = '1000';
     }else if(guests==3){
-      
+      price = '1200';
+    }else if(guests==4){
+      price = '1400';
+    }else if(guests==5){
+      price = 'Pending Contact.';
     }
+     return price;
   }
+
+  function pbhprices(guests){
+    var price;
+    if(guests==0){
+      price = '500';
+    }else if(guests==1){
+      price = '700';
+    }else if(guests==2){
+      price = '1000';
+    }else if(guests==3){
+      price = '1200';
+    }else if(guests==4){
+      price = '1400';
+    }else if(guests==5){
+      price = 'Will get contacted.';
+    }
+     return price;
+  }
+
+
+  function mypprices(guests){
+    var price;
+    if(guests==0){
+      price = '500';
+    }else if(guests==1){
+      price = '700';
+    }else if(guests==2){
+      price = '1000';
+    }else if(guests==3){
+      price = '1200';
+    }else if(guests==4){
+      price = '1400';
+    }else if(guests==5){
+      price = 'Will get contacted.';
+    }
+     return price;
+  }
+
+  function pbyrprices(guests){
+    var price;
+    if(guests==0){
+      price = '500';
+    }else if(guests==1){
+      price = '700';
+    }else if(guests==2){
+      price = '1000';
+    }else if(guests==3){
+      price = '1200';
+    }else if(guests==4){
+      price = '1400';
+    }else if(guests==5){
+      price = 'Will get contacted.';
+    }
+     return price;
+  }
+
+
 
   $(document).ready(function(){
      $('.guestnum').change(function(){
+        var resort = $(this).attr('id');
         var guests = $(this).val();
-        alert(guests);
-        if(guests == 1){
-            $(this).parent().find('p.price').text('US$ 500');
-        }
-        if(guests == 2){
-            $(this).parent().find('p.price').text('US$ 700');
-        }
+
+
+       if(resort == 'gr'){
+         var pricefor =  grprices(guests);
+         $("input[name=subtotal]").val(pricefor);
+         $(this).parent().find('.price').text('US$ ' + pricefor);
+         
+       }else if(resort == 'pbh'){
+         var pricefor =  pbhprices(guests);
+         $(this).parent().find('.price').text('US$ ' + pricefor);
+       }else if(resort == 'myp'){
+         var pricefor =  mypprices(guests);
+         $(this).parent().find('.price').text('US$ ' + pricefor);
+       }else if(resort == 'pbyr'){
+          var pricefor =  pbyrprices(guests);
+         $(this).parent().find('.price').text('US$ ' + pricefor);
+       }
+
+
+     });
+
+     $('.add-event').click(function(){
+        var location = $(this).attr('id');
+        var price = $(this).parent().find('.price').text();
+
+        $("input[name='resort']").val(location);
+        $("input[name='price']").val(price);
+
+        $(this).parent().addClass('active-res').siblings().removeClass("active-res");
+        
+
+
+
+      //if conditional to check all variables have been stored
+        $('.step-overlay').fadeOut();
+      //End of conditional
+
      });
   });
 </script>
