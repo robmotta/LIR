@@ -57,7 +57,7 @@
       <div class="row">
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="locations/index.html"><img src="../images/feature-1.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="locations/index.html"><img src="../images/feature-5.JPG" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
@@ -75,7 +75,7 @@
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="../images/feature-2.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="#"><img src="../images/feature-3.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
@@ -92,7 +92,7 @@
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="../images/feature-3.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="#"><img src="../images/feature-6.JPG" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
@@ -110,7 +110,7 @@
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="../images/feature-4.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="#"><img src="../images/feature-7.JPG" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->

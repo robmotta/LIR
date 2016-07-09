@@ -31,101 +31,21 @@
     <![endif]-->
 </head>
 <body>
-<div class="collapse" id="searcharea">
-  <div class="input-group">
-    <input type="text" class="form-control" placeholder="Search for...">
-    <span class="input-group-btn">
-    <button class="btn tp-btn-primary" type="button">Search</button>
-    </span> </div>
-</div>
-<div class="top-bar">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 top-message">
-        <p>Powered by GreenBox.</p>
-      </div>
-      <div class="col-md-6 top-links">
-        <ul class="listnone">
-          <li><a href="../about.html"> About Us </a></li>
-          <li><a href="pricing-plan.html">Venue owner?</a></li>
-          <li><a href="signup-couple.html">Log in</a></li>
-          <li><a href="signup-vendor.html">Help</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="tp-nav" id="headersticky">
-  <div class="container">
-    <nav class="navbar navbar-default navbar-static-top"> 
-      
-      <!-- Brand and toggle get grouped for better mobile display -->
-      
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <a class="navbar-brand" href="index.html"></a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="../index.html">Home</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations<span class="fa fa-angle-down"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="index.html">All Locations</a></li>
-              <li><a href="paradise-beach.html">Paradise Beach resort</a></li>
-              <li><a href="grand-roatan.html">Grand Roatan</a></li>
-              <li><a href="venue-listing.html">Pristine Bay</a></li>
-              <li><a href="photography-listing.html">Mayan Princess</a></li>
-              
-            </ul>
-          </li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Themes<span class="fa fa-angle-down"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="vendor-details.html"></a>
-                  <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Wedding Themes</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="venue-listing.html">Coral Love</a></li>
-                      <li><a href="photography-listing.html">Living Turquoise</a></li>
-                      <li><a href="dresses-listing.html">Tropical Bliss</a></li>
-                    </ul>
-                  </li>
-              </li>
-             <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Event Themes</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="venue-listing.html">The Pirate's Booty</a></li>
-                      <li><a href="photography-listing.html">Live and Let Lounge</a></li>
-                      <li><a href="dresses-listing.html">Disco Fever</a></li>
-                    </ul>
-                  </li>
-            </ul>
-          </li>
-          
-          <!-- Mega Dropdown -->
-          <li> <a href="#">Inclusions</a></li>
-          
-          <!-- /.Mega Dropdown -->
-          
-          <li> <a href="#">The Extra Mile</a></li>
-          <li> <a href="#">Contact</a></li>
-        </ul>
-      </div>
-      
-      <!-- /.navbar-collapse --> 
-    </nav>
-  </div>
-  <!-- /.container-fluid --> 
-  
-</div>
+
+<?php 
+  include '../snippets/menu.html';
+?>
+
 <div id="slider" class="owl-carousel owl-theme slider">
   <div class="item">
-    <div class="slider-pic"><img src="../images/hero-image-3.jpg" alt="Aerial Iron Shore"></div>
+    <div class="slider-pic"><img src="../images/hero-image-2.jpg" alt="Aerial Iron Shore"></div>
     
   </div>
   <div class="item">
-    <div class="slider-pic"><img src="../images/venue-pic1.jpg" alt="Beachfront GrandRoatan"></div>
+    <div class="slider-pic"><img src="../images/venue-pic-3.jpg" alt="Beachfront GrandRoatan"></div>
   </div>
   <div class="item">
-<div class="slider-pic"><img src="../images/venue-pic2.jpg" alt="Aerial GrandRoatan in West Bay Beach"></div>  </div>
+<div class="slider-pic"><img src="../images/venue-pic.jpg" alt="Aerial GrandRoatan in West Bay Beach"></div>  </div>
 </div>
 <div class="tp-breadcrumb">
   <div class="container">
@@ -134,7 +54,7 @@
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
           <li><a href="#">Locations</a></li>
-          <li class="active">Paradise Beach Resort</li>
+          <li class="active">Grand Roatan Resort</li>
         </ol>
       </div>
     </div>
@@ -143,11 +63,11 @@
 <div class="container venue-header">
   <div class="row venue-head">
     <div class="col-md-12 title"> <a href="#" class="label-primary">Resort</a>
-      <h1>Paradise Beach Resort</h1>
+      <h1>Grand Roatan Resort</h1>
       <p class="location"><i class="fa fa-map-marker"></i>Located in West Bay Beach, a tourist area with turquoise waters and beautiful white sand beaches.</p>
     </div>
     <div class="col-md-8 rating-box">
-      <div class="rating">Three different on-site locations to chose from.</div>
+      <div class="rating">Two different on-site locations to chose from.</div>
     </div>
     <div class="col-md-4 venue-action"> <a href="#inquiry" class="btn tp-btn-default">Book Your Event</a> </div>
   </div>
@@ -157,17 +77,18 @@
     <div class="row">
       <div class="col-md-8 page-description">
         <div class="venue-details">
-          <h2>About Paradise Beach Resort</h2>
-          <p>Paradise Beach Resort is re-nown for throwing parties. The Resort is eqquiped with everything to prepare all types of events and the cuisine is one of the best in the island. The Resort offers three different in-house locations (bachfront, poolside with bar and thier all new conference room) that provide versatility when it comes to special events. One thing we can say it, Paradise Beach Resort has it all. </p>
+          <h2>About Grand Roatan</h2>
+          <p>Enjoy the privacy that Grand Roatan offers in the most visited of Roatan. West bay is known to have all the resorts and events making it a quite transited area, what makes Grand Roatan unique is that it is located at the very end of the beach, where it is shielded from the strong winds by an ancient dried up coral reef. The metalic grey of this ancient coral has made locals give this side of the beach the name of Iron Shore.</p>
+          <p>The chef that resides here is known to have one of the best flavor of all west bay. Come celebrate your event here and be carried away by the vibe of the place, perfect for a sunset wedding or a special Dinner.</p>
         </div>
         <div class="row">
           <div class="col-md-12 venue-amenities">
             <h2>Facilities</h2>
             <ul class="check-circle">
-              <li>Renown Cuisine</li>
-              <li>Pool-side & Bar </li>
-              <li>Beach Front View </li>
-              <li>200 fitting Conference Room</li>
+              <li>Iron shore grilling House</li>
+              <li>Pool-side Area </li>
+              <li>Beach Front </li>
+              <li>Iron Shore Grill house</li>
             </ul>
           </div>
         </div>
@@ -194,10 +115,10 @@
             <div class="venue-info"><!-- venue-info-->
               <div class="capacity">
                 <div>Capacity:</div>
-                <span class="cap-people"> 10 - 200 </span> </div>
+                <span class="cap-people"> 10 - 50 </span> </div>
               <div class="pricebox">
-                <div>$1,600</div>
-                <span class="price">$19.50 PAX</span></div>
+                <div>Avg price:1250</div>
+                <span class="price">$17.50 PAX</span></div>
             </div>
           </div>
           <div class="col-md-12" >

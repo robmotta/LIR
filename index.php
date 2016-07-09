@@ -68,7 +68,8 @@
               <div class="col-md-5 no-padding">
                 <input type="date" name="date" class="form-control" />
               </div>
-              <button type="submit" class="btn tp-btn-default tp-btn-lg">Start Planning</button>
+              <button type="submit" class="btn tp-btn-default tp-btn-lg" style="    display: block;
+    padding: 0;">Start Planning</button>
             </form>
           </div>
         </div>
@@ -88,71 +89,71 @@
       <div class="row">
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="locations/index.html"><img src="images/feature-1.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="locations/index.php"><img src="images/feature-1.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="/locations/" class="title">Incredible spots</a></h2>
+                <h2><a href="locations/index.php" class="title">Incredible spots</a></h2>
                 <p class="location">The locations that we offer you have been selected due to their outstanding service and locations. Their professional staff and their rooms will make you feel that you are truly in paradise..</p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"> <a href="locations/index.php">More Details</a></div>
               </div>
             </div>
             <!-- venue details --> 
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="images/feature-2.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="the-extra-mile.php"><img src="images/feature-2.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">Personal Attention</a></h2>
+                <h2><a href="the-extra-mile.php" class="title">Personal Attention</a></h2>
                 <p class="location">We know how special this date is for you! let our  dedicated team to worry about every little detail, receive support online and ofline once you get to the destination. Worry not and enjoy your staying as you should.</p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"><a href="the-extra-mile.php">More Details</a></div>
               </div>
             </div>
             <!-- venue details --> 
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="images/feature-3.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="planning/index.php"><img src="images/feature-3.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">Planning &amp; Design</a></h2>
+                <h2><a href="planning/index.php" class="title">Planning &amp; Design</a></h2>
                 <p class="location">Design the  perfect celebration or event  with the help of our professional team of decorators coordinated by your on-site event & wedding planner. Read more about who will be taking care of this details</p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"><a href="planning/index.php">More Details </a></div>
               </div>
             </div>
             <!-- venue details --> 
           </div>
           <div class="col-md-3 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="images/feature-4.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="under-construction.php"><img src="images/feature-4.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">Event Themes</a></h2>
+                <h2><a href="under-construction.php" class="title">Event Themes</a></h2>
                 <p class="location">Worry not about having a long set-up procedures. We have designed beautiful themes alongside our decor team in order to simplify your planning process with only a few clicks and leaving the stress to us.</p>
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"><a href="under-construction.php">More Details</a></div>
               </div>
             </div>
             <!-- venue details --> 
@@ -170,36 +171,36 @@
     <div class="row">
         <div class="col-md-6 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="images/inclusive-1.jpg" alt="wedding venue" class="img-responsive"></a>
+              <a href="the-extra-mile.php"><img src="images/inclusive-1.jpg" alt="wedding venue" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">What's included in our services?</a></h2>
+                <h2><a href="the-extra-mile.php" class="title">What's included in our services?</a></h2>
                 <p class="location">Our services include several efficient tools that will make your planning a lot easier. With our planning system you get to sit back and enjoy the island while we take care of the rest. Book your wedding with us and we promise to make your event a remarkable one. </p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"><a href="the-extra-mile.php">More Details</a></div>
               </div>
             </div>
             <!-- venue details --> 
           </div>
           <div class="col-md-6 vendor-box"><!-- venue box start-->
             <div class="vendor-image"><!-- venue pic --> 
-              <a href="#"><img src="images/inclusive-2.jpg" alt="love in roatan inclusive" class="img-responsive"></a>
+              <a href="about-rico.php"><img src="images/inclusive-2.jpg" alt="love in roatan inclusive" class="img-responsive"></a>
             </div>
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">Meet Rico Raspaldo</a></h2>
+                <h2><a href="about-rico.php" class="title">Meet Rico Raspaldo</a></h2>
                 <p class="location">An experienced wedding &amp; events planner, has been manager of several important resorts in the caribbean islands and coordinating events is one of his specialties. Get to know him in the <a href="#">about us </a> page to know who's going to take care of your event.</p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price">More Details</div>
+                <div class="price"><a href="about-rico.php">More Details</a></div>
               </div>
             </div>
             <!-- venue details --> 
@@ -216,24 +217,21 @@
     </div>
     <div class="row">
       <div class="col-md-4 location-block"><!-- location block -->
-        <div class="vendor-image"><a href="#"><img src="images/location-1.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Grand Roatan</span></a> </div>
+        <div class="vendor-image"><a href="#"><img src="images/location-1.jpg" alt="" class="img-responsive"></a> <a href="locations/grand-roatan.php" class="venue-lable"><span class="label label-default">Grand Roatan</span></a> </div>
       </div>
       <!-- /.location block -->
       <div class="col-md-4 location-block"> <!-- location block -->
-        <div class="vendor-image"><a href="#"><img src="images/location-2.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Pristine Bay</span></a> </div>
+        <div class="vendor-image"><a href="#"><img src="images/location-2.jpg" alt="" class="img-responsive"></a> <a href="locations/pristine-bay.php" class="venue-lable"><span class="label label-default">Pristine Bay</span></a> </div>
       </div>
       <!-- /.location block -->
       <div class="col-md-4 location-block"> <!-- location block -->
-        <div class="vendor-image"> <a href="#"><img src="images/location-3.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Mayan Princess</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/location-3.jpg" alt="" class="img-responsive"></a> <a href="locations/mayan-princess.php" class="venue-lable"><span class="label label-default">Mayan Princess</span></a> </div>
       </div>
       <!-- /.location block -->
       <div class="col-md-8 location-block"><!-- location block -->
-        <div class="vendor-image"> <a href="#"><img src="images/location-4.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Paradise Beach Resort</span></a> </div>
+        <div class="vendor-image"> <a href="#"><img src="images/location-4.jpg" alt="" class="img-responsive"></a> <a href="locations/paradise-beach-resort.php" class="venue-lable"><span class="label label-default">Paradise Beach Resort</span></a> </div>
       </div>
       <!-- /.location block -->
-      <div class="col-md-4 location-block"> <!-- location block -->
-        <div class="vendor-image"> <a href="#"><img src="images/location-5.jpg" alt="" class="img-responsive"></a> <a href="#" class="venue-lable"><span class="label label-default">Turquioise Bay</span></a> </div>
-      </div>
       <!-- /.location block --> 
     </div>
   </div>
@@ -251,13 +249,13 @@
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="#" class="title">Find the right place to celebrate your special day</a></h2>
-                <p class="location">Only LoveInRoatan offers the ultimate honeymoon locations for honeymoon packages with inclusive amenities in the Caribbean, with luxurious accommodations and the best land and watersports - from golf to scuba, and an array of top gourmet dining options.</p>
+                <h2><a href="#" class="title"> Photography & Film Services</a></h2>
+                <p class="location">A wedding is memory for a lifetime. Capture every detail of your wedding and cherish them forever. Roatan is the perfect place for beach weddings. So, take advantage of the natural light and make some memories.</p>
                 
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <a href="#"><div class="wed-btn">More Details</div></a>
+                <a href="contact.php"><div class="wed-btn">Book Your Wedding Session</div></a>
               </div>
             </div>
             <!-- venue details --> 
