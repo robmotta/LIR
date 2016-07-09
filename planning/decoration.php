@@ -262,7 +262,7 @@
                                 
                               <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
                             </div>
-                            <div class="col-md-3 product-box se"> <!-- product box start --> 
+                            <div class="col-md-3 product-box se" id="se2"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-13.jpg" alt="" class="img-responsive"></div>
                               </a>
@@ -288,52 +288,59 @@
                         <h1>Seat Decorations</h1>
                            <h2 class="tp-title-center">Pick the amount of seat covers and or decoration ribbons for your theme. This is optional.</h2>
                           <div class="row products">
-                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                            <div class="col-md-3 product-box se-d" id="se-d-1"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-14.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Brown Decoration</a></h2>
                                 <p>Available for every chair model.</p>
+
+                                    <input type="hidden" name="pricetag" class="pricetag" value="0.80">
+                                    <input type="hidden" name="category">
                                     <input type="text" class="form-control sd" placeholder="Amount" name="sd-1"/>
                                     <br />
-
-                                    <p class="price pull-right">$US 0.80</p>
+                                      <button class="btn tp-btn-default btn-remove">Remove</button>
+                                    <p class="price pull-right deco-price">$US <span class="digit-price">0.80</span></p>
                                 </div>
                                 
-                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
-                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                                <a id="se-d-1" class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
+                            <div class="col-md-3 product-box" id="se-d-2"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-15.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Turquoise Decoration</a></h2>
                                 <p>Available for every chair model</p>
+                                  <input type="hidden" name="pricetag" class="pricetag" value="0.95">
                                   <input type="text" class="form-control sd" placeholder="Amount" name="sd-2"/>
                                   <br />
-                                  <p class="price pull-right">$US 0.80</p>
+                                  <button class="btn tp-btn-default btn-remove">Remove</button>
+                                  <p class="price pull-right">$US <span class="digit-price">.95<span></p>
                               </div>
                           
-                              <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div><!-- product box end -->
-                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                              <a class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</a></div><!-- product box end -->
+                            <div class="col-md-3 product-box se-d" id="es-d-3"> <!-- product box start --> 
                               
                               <div class="product-wrap"><img src="../images/product-16.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Gray Decoration</a></h2>
                                 <p>Available for every chair model.</p>
+                                  <input type="hidden" name="pricetag" class="pricetag" value="0.40">
                                   <input type="text" class="form-control sd" placeholder="Amount" name="sd-1"/>
                                   <br />
-                                  <p class="price pull-right">$US 0.80</p>
+                                  <button class="btn tp-btn-default btn-remove">Remove</button>
+                                  <p class="price pull-right">$US <span class="digit-price">0.80</span></p>
                               </div>
                                 
-                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div></div>  
+                                <a class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</a></div></div>  
                       </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tables">
                         <div class="ta">
                           <h1>Tables</h1>
-                          <h2 class="tp-title-center">Mess hall? or round tables?</h2>
+                          <h2 class="tp-title-center">Would you like to find yourself in a Mess hall kind of event? or have circular tables?</h2>
                           <div class="row products">
                             <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
@@ -373,6 +380,7 @@
                     </div>
 
                     <div role="tabpanel" class="tab-pane" id="props">
+                        <h2 class="tp-title-center">Find here any other little detail you might want to add to your decoration list, Our Wedding pre-planner will help you put the scenario together with the pieces you have chosen. </h2>
                         <h1>Table Tops</h1>
                           <div class="row products">
                             <div class="col-md-3 product-box"> <!-- product box start --> 
