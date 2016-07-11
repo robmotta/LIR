@@ -41,6 +41,42 @@
 </head>
 <body>
 
+<div class="popup">
+  <div style="width:100%; height:100%; top:0; background-color: rgba(22,22,22,0.5); position:fixed; z-index:999; ">
+     <div style="width:50%; padding:50px; display: inline-block; background-image: url(../images/sd-banner.JPG); position:fixed; top:15%; left:25%" >
+      <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+              
+            </div>
+            <div style="background-color:white;"class="col-md-3">
+              <h2 style="padding-top:20px;"class="tp-title-center"> Before we proceed </h2>
+              <p> There is some information we need to catch up on before we continue. Please fill out the following:</p>
+              <form>
+                <label for="event-type"> Event Type:</label>
+                <select name="event-type" class="form-control selectpicker">
+                  <option>What kind of event?</option>
+                  <option value="wedding">Wedding</option>
+                  <option value="party">Party</option>
+                  <option value="convention">Convention</option>
+                  <option value="BR">Business Retreat</option>
+                  <option value="other">Other</option>
+                </select>
+              </form>
+              <input type="date" name="date" class="form-control" />
+              <br/>
+              <input  style="margin-bottom:20px;"type="submit" name="sbmt" value="Continue" class="form-control" />
+                          
+            </div>
+            <div class="col-md-3">
+              
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php 
   include '../snippets/menu.html';
 ?>
