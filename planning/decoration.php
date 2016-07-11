@@ -131,7 +131,7 @@
                     <li role="presentation"><a href="#chairs" aria-controls="Chairs" role="tab" data-toggle="tab">Seats</a></li>
                     <li role="presentation"><a href="#seatDecor" aria-controls="seatDecor" role="tab" data-toggle="tab">Seat Decoration</a></li>
                     <li role="presentation"><a href="#tables" aria-controls="tables" role="tab" data-toggle="tab">Tables</a></li>
-                    <li role="presentation"><a href="#props" aria-controls="props" role="tab" data-toggle="tab">Decoration Props</a></li>
+                    <li role="presentation"><a href="#decoprops" aria-controls="props" role="tab" data-toggle="tab">Decoration Props</a></li>
                   </ul>
                   
                   <!-- Tab panes -->
@@ -384,377 +384,469 @@
                       </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tables">
-                        <div id="ta">
+                        <div class="ta">
                           <h1>Tables</h1>
                           <h2 class="tp-title-center">Would you like to find yourself in a Mess hall kind of event? or have circular tables?</h2>
                           <div class="row products">
-                            <div class="col-md-3 product-box ta" id="ta1"> <!-- product box start --> 
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-17.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Rectangular Table</a></h2>
                                     <p>Rectangular Rugged plastic table, fits 8</p>
-                                  
-                                  <input type="hidden" name="pricetag" class="pricetag" value="25.00">
-                                  <input type="text" name="amount" class="form-control " placeholder="Amount"/>
+                                  <input type="text" class="form-control sd" placeholder="Amount" name="sd-1"/>
                                   <br />
-                                  <button class="btn tp-btn-default btn-remove">Remove</button>
-                                  <p class="price pull-right deco-price">$US <span class="digit-price">25.00</span></p>
-                              </div>
-                                
-                              <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
-
-                            <div class="col-md-3 product-box ta" id="ta2"> <!-- product box start --> 
+                                  <p class="price pull-right">$US 25.00</p>
+                                </div>
+                          
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-18.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Circular Table</a></h2>
-                                    <p>Circular Rugged plastic table, fits 8</p>
-                                  
-                                  <input type="hidden" name="pricetag" class="pricetag" value="25.00">
-                                  <input type="text" name="amount" class="form-control " placeholder="Amount"/>
+                                <p> Rectangular Rugged plastic table, fits 8 </p>
+                                  <select name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
                                   <br />
-                                  <button class="btn tp-btn-default btn-remove">Remove</button>
-                                  <p class="price pull-right deco-price">$US <span class="digit-price">25.00</span></p>
+                                  <p class="price pull-right"></p>
                               </div>
                                 
-                              <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
-
+                              <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
+                          </div>
                         </div>   <!-- product box end -->
                     </div>
-                  </div>
 
-                    <div role="tabpanel" class="tab-pane" id="props">
-                        <div id="tt">
+                    <div role="tabpanel" class="tab-pane" id="decoprops">
+                      <div id="props">
+                        
+                        <h1>Table Tops</h1>
+                        <h2 class="tp-title-center">Find here any other little details you might want to add to your decoration list, Our Wedding pre-planner will help you put the scenario together with the pieces you have chosen. </h2>
                           <div class="row products">
-
-                              <h1>Table Tops</h1>
-                              <h2 class="tp-title-center">Find here any other little detail you might want to add to your decoration list, Our Wedding pre-planner will help you put the scenario together with the pieces you have chosen. </h2>
-                              
-                              <div class="col-md-3 product-box tt" id="tt1"> <!-- product box start --> 
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-19.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Orange Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                        </div>
+                                    <p></p>
+                                    <select name="guest" class="form-control guestnum">
+                                      <option value="0">1 to 50</option>
+                                      <option value="1">50  to 75</option>
+                                      <option value="2">75 to 100</option>
+                                      <option value="3">100 - 150</option>
+                                      <option value="4">150 - 200</option>
+                                      <option value="5">200 +</option>
+                                    </select>
+                                    <br />
+                                    <p class="price pull-right"></p>
+                                </div>
 
-                            <div class="col-md-3 product-box tt" id="tt2"> <!-- product box start --> 
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                            </div>
+                                        <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-20.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Dark Blue Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
+                                <p></p>
+                                  <select name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
                             
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                        </div>
-
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                              
+                            </div>
                             <!-- product box end -->
                             
-                            <div class="col-md-3 product-box tt" id="tt3"> <!-- product box start --> 
-                              <a href="#">
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                              
                               <div class="product-wrap"><img src="../images/product-21.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Brown Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                        </div>
-
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 - 50</option>
+                                    <option value="1">50 - 75</option>
+                                    <option value="2">75 - 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                                
+                            </div>
                             <!-- product box end -->
-                            <div class="col-md-3 product-box tt" id="tt4"> <!-- product box start --> 
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-22.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Turquoise Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                              </div>
+                              <p class="price pull-right"></p>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
                             </div>
                           </div>
-
-                      <div class="row products">
-                        <div class="col-md-3 product-box tt" id="tt5"> <!-- product box start --> 
+                          <div class="row products">
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-23.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
-                                <h2><a href="#" class="title">Peach Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                        </div>
-                          
-
-                          <div class="col-md-3 product-box tt" id="tt6"> <!-- product box start --> 
+                                <h2><a href="#" class="title">Salmon Table Top</a></h2>
+                                    <p></p>
+                                    <select name="guest" class="form-control guestnum">
+                                      <option value="0">1 to 50</option>
+                                      <option value="1">50  to 75</option>
+                                      <option value="2">75 to 100</option>
+                                      <option value="3">100 - 150</option>
+                                      <option value="4">150 - 200</option>
+                                      <option value="5">200 +</option>
+                                    </select>
+                                    <br />
+                                    <p class="price pull-right"></p>
+                                </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                            </div>
+                                        <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-24.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
-                                <h2><a href="#" class="title">Olive Green Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
+                                <h2><a href="#" class="title"></a>Olive Green Table Top</h2>
+                                <p></p>
+                                  <select name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
                             
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                              
                             </div>
-
-                            <div class="col-md-3 product-box tt" id="tt7"> <!-- product box start --> 
-                              <a href="#">
+                            <!-- product box end -->
+                            
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                              
                               <div class="product-wrap"><img src="../images/product-25.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
-                                <h2><a href="#" class="title">Metallic Blue Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <h2><a href="#" class="title"></a>Blue Table Top</h2>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 - 50</option>
+                                    <option value="1">50 - 75</option>
+                                    <option value="2">75 - 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                                
                             </div>
-
-                            <div class="col-md-3 product-box tt" id="tt8"> <!-- product box start --> 
+                            <!-- product box end -->
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-26.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
-                                <h2><a href="#" class="title">Salmon Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <h2><a href="#" class="title">Pink Table Top</a></h2>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                              </div>
+                              <p class="price pull-right"></p>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
                             </div>
                           </div>
-
-
-                        <div class="row products">
-                          <div class="col-md-3 product-box tt" id="tt9"> <!-- product box start --> 
+                          <div class="row products">
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-27.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
-                                <h2><a href="#" class="title">White Embellished Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                          </div>
-
-                          <div class="col-md-3 product-box tt" id="tt10"> <!-- product box start --> 
+                                <h2><a href="#" class="title">White Translucent Table Top</a></h2>
+                                    <p></p>
+                                    <select name="guest" class="form-control guestnum">
+                                      <option value="0">1 to 50</option>
+                                      <option value="1">50  to 75</option>
+                                      <option value="2">75 to 100</option>
+                                      <option value="3">100 - 150</option>
+                                      <option value="4">150 - 200</option>
+                                      <option value="5">200 +</option>
+                                    </select>
+                                    <br />
+                                    <p class="price pull-right"></p>
+                                </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                            </div>
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-28.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Purple Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
+                                <p></p>
+                                  <select name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
                             
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                              
                             </div>
-
-                            <div class="col-md-3 product-box tt" id="tt11"> <!-- product box start --> 
-                              <a href="#">
+                            <!-- product box end -->
+                            
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                              
                               <div class="product-wrap"><img src="../images/product-29.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Orange Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 - 50</option>
+                                    <option value="1">50 - 75</option>
+                                    <option value="2">75 - 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
+                                
                             </div>
-
-                            <div class="col-md-3 product-box tt" id="tt12"> <!-- product box start --> 
+                            <!-- product box end -->
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-30.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Green Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                              </div>
+                              <p class="price pull-right"></p>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a>
                             </div>
-                        </div>
-
-                        <div class="row products">
-                          <div class="col-md-3 product-box tt" id="tt13"> <!-- product box start --> 
+                          </div>
+                          <div class="row products">
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-31.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Gray Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
+                                    <p></p>
+                                    <select name="guest" class="form-control guestnum">
+                                      <option value="0">1 to 50</option>
+                                      <option value="1">50  to 75</option>
+                                      <option value="2">75 to 100</option>
+                                      <option value="3">100 - 150</option>
+                                      <option value="4">150 - 200</option>
+                                      <option value="5">200 +</option>
+                                    </select>
+                                    <br />
+                                    <p class="price pull-right"></p>
+                                </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
 
-                            <div class="col-md-3 product-box tt" id="tt14"> <!-- product box start --> 
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-32.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Peach Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
+                                    <p></p>
+                                    <select name="guest" class="form-control guestnum">
+                                      <option value="0">1 to 50</option>
+                                      <option value="1">50  to 75</option>
+                                      <option value="2">75 to 100</option>
+                                      <option value="3">100 - 150</option>
+                                      <option value="4">150 - 200</option>
+                                      <option value="5">200 +</option>
+                                    </select>
+                                    <br />
+                                    <p class="price pull-right"></p>
+                                </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
                             
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
-
-                            <div class="col-md-3 product-box tt" id="tt15"> <!-- product box start --> 
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
                               <a href="#">
                               <div class="product-wrap"><img src="../images/product-33.jpg" alt="" class="img-responsive"></div>
                               </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">Honduran Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
+                                <p></p>
+                                  <select name="guest" class="form-control guestnum">
+                                    <option value="0">1 to 50</option>
+                                    <option value="1">50  to 75</option>
+                                    <option value="2">75 to 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
                             
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
-
-                            <div class="col-md-3 product-box tt" id="tt16"> <!-- product box start --> 
-                              <a href="#">
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
+                            
+                            <div class="col-md-3 product-box"> <!-- product box start --> 
+                              
                               <div class="product-wrap"><img src="../images/product-34.jpg" alt="" class="img-responsive"></div>
-                              </a>
                               <div class="product-info">
                                 <h2><a href="#" class="title">White Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
+                                <p></p>
+                                  <select id="guest" name="guest" class="form-control guestnum">
+                                    <option value="0">1 - 50</option>
+                                    <option value="1">50 - 75</option>
+                                    <option value="2">75 - 100</option>
+                                    <option value="3">100 - 150</option>
+                                    <option value="4">150 - 200</option>
+                                    <option value="5">200 +</option>
+                                  </select>
+                                  <br />
+                                  <p class="price pull-right"></p>
+                              </div>
+                                
+                                <a href="#" class="btn tp-btn-default"><i class="fa fa-shopping-cart"></i>Add to Event</a></div>
                           </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
-                          </div>
+                          
+                        <h1>Table props</h1>
+                         <h2 class="tp-title-center">Table props are perfect to use for your snack bar or your gift area, pick a max of three.</h2>
+                         <div class="row products">
+                              <div class="col-md-3 product-box tprop" id="tprop1"> <!-- product box start --> 
+                                <a href="#">
+                                <div class="product-wrap"><img src="../images/product-37.jpg" alt="" class="img-responsive"></div>
+                                </a>
+                                <div class="product-info">
+                                <h2><a href="#" class="title">Crystal plate bottom</a></h2>
+                                    <p>A crystal base perfect to bring that minimalist look to your setup.</p>
 
-                          <div class="row products">
-                              <div class="col-md-3 product-box tt" id="tt17"> <!-- product box start --> 
-                              <a href="#">
-                              <div class="product-wrap"><img src="../images/product-35.jpg" alt="" class="img-responsive"></div>
-                              </a>
-                              <div class="product-info">
-                                <h2><a href="#" class="title">Pink Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
+                                    <input type="hidden" name="pricetag" class="pricetag" value="0.8">
+                                    <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
+                                    <br />
+                                    <button class="btn tp-btn-default btn-remove">Remove</button>
+                                    <p class="price pull-right deco-price">$US <span class="digit-price">0.80</span> p/unit</p>
+                                </div>
+                                  
+                                <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                              </div>
+                              <div class="col-md-3 product-box tprop" id="tprop2"> <!-- product box start --> 
+                                <a href="#">
+                                <div class="product-wrap"><img src="../images/product-38.jpg" alt="" class="img-responsive"></div>
+                                </a>
+                                <div class="product-info">
+                                <h2><a href="#" class="title">Onyx Bowl</a></h2>
+                                    <p>A crystal onyx bowl recommended to use it for tablecenter or detail around the area.</p>
 
-                            <div class="col-md-3 product-box tt" id="tt18"> <!-- product box start --> 
-                              <a href="#">
-                              <div class="product-wrap"><img src="../images/product-36.jpg" alt="" class="img-responsive"></div>
-                              </a>
-                              <div class="product-info">
-                                <h2><a href="#" class="title">Black and White Table Top</a></h2>
-                                    
-                              <input type="hidden" name="pricetag" class="pricetag" value="8.00">
-                              <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
-                              <br />
-                              <button class="btn tp-btn-default btn-remove">Remove</button>
-                              <p class="price pull-right deco-price">$US <span class="digit-price">8.00</span></p>
-                          </div>
-                            
-                          <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
-                            </div>
+                                    <input type="hidden" name="pricetag" class="pricetag" value="2">
+                                    <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
+                                    <br />
+                                    <button class="btn tp-btn-default btn-remove">Remove</button>
+                                    <p class="price pull-right deco-price">$US <span class="digit-price">2.00</span> p/unit</p>
+                                </div>
+                                  
+                                <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                              </div>
+                              <div class="col-md-3 product-box tprop" id="tprop1"> <!-- product box start --> 
+                                <a href="#">
+                                <div class="product-wrap"><img src="../images/product-39.jpg" alt="" class="img-responsive"></div>
+                                </a>
+                                <div class="product-info">
+                                <h2><a href="#" class="title">Metal Structure for dishes</a></h2>
+                                    <p>A salsa holder for your snack bar.</p>
 
-                          </div>
+                                    <input type="hidden" name="pricetag" class="pricetag" value="0.8">
+                                    <input type="text" name="amount" class="form-control " value="1" disabled="true"/>
+                                    <br />
+                                    <button class="btn tp-btn-default btn-remove">Remove</button>
+                                    <p class="price pull-right deco-price">$US <span class="digit-price">0.80</span> p/unit</p>
+                                </div>
+                                  
+                                <button class="btn tp-btn-default add"><i class="fa fa-shopping-cart"></i>Add to Event</button>
+                              </div>
+                         </div>
+                         
+                        
+                    </div>
+
+
+                    </div>
 
               </div>
             </div>
