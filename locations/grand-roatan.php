@@ -31,6 +31,14 @@
     <![endif]-->
 </head>
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6&appId=116829918404353";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <?php 
   include '../snippets/menu.html';
@@ -101,6 +109,7 @@
               <li>Free HoneyMoon Suite for the Couple.</li>
             </ul>
           </div>
+          <div class="fb-page" data-href="https://www.facebook.com/GrandRoatan/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GrandRoatan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GrandRoatan/">Grand Roatan Resort</a></blockquote></div>
         </div>
         
         <!-- comments -->
@@ -307,7 +316,7 @@
 <script src="../js/header-sticky.js"></script> 
 <script src="http://maps.googleapis.com/maps/api/js"></script> 
 <script>
-var myCenter=new google.maps.LatLng(23.0203458,72.5797426);
+var myCenter=new google.maps.LatLng(16.3858743,-86.4217671);
 
 function initialize()
 {

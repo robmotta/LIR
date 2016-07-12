@@ -31,7 +31,14 @@
     <![endif]-->
 </head>
 <body>
-
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6&appId=116829918404353";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <?php 
   include '../snippets/menu.html';
 ?>
@@ -78,7 +85,7 @@
       <div class="col-md-8 page-description">
         <div class="venue-details">
           <h2>About Paradise Beach Resort</h2>
-          <p>Paradise Beach Resort is re-nown for throwing parties. The Resort is eqquiped with everything to prepare all types of events and the cuisine is one of the best in the island. The Resort offers three different in-house locations (bachfront, poolside with bar and thier all new conference room) that provide versatility when it comes to special events. One thing we can say it, Paradise Beach Resort has it all. </p>
+          <p>Paradise Beach Resort is re-known for throwing parties. The Resort is equiped with everything to cater all types of events and the cuisine is one of the best in the island. The Resort offers three different in-house locations (beachfront, poolside with bar and the all-new conference room) that provide versatility when it comes to special events. One thing we can say is, Paradise Beach Resort has it all. </p>
         </div>
         <div class="row">
           <div class="col-md-12 venue-amenities">
@@ -100,6 +107,9 @@
               <li>Free HoneyMoon Suite for the Couple.</li>
             </ul>
           </div>
+
+            <div class="fb-page" data-href="https://www.facebook.com/pages/Paradise-Beach-Hotel/314853101953598?fref=ts" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+
         </div>
         
         <!-- comments -->
@@ -306,7 +316,7 @@
 <script src="../js/header-sticky.js"></script> 
 <script src="http://maps.googleapis.com/maps/api/js"></script> 
 <script>
-var myCenter=new google.maps.LatLng(23.0203458,72.5797426);
+var myCenter=new google.maps.LatLng(16.3858743,-86.4217671);
 
 function initialize()
 {

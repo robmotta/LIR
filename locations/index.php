@@ -39,58 +39,17 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-7 listing-wrap"><!-- listing wrap -->
-      <div class="row"> <a class="btn tp-btn-link pull-right" role="button" data-toggle="collapse" href="#searchform" aria-expanded="false" aria-controls="searchform">+ Click here to be more specific</a></div>
+      
        <div class="row">
        
-    <div class="filter-box collapse" id="searchform">
-      <div class="container-fluid">
-        <div class="row filter-form">
-          <div class="col-md-12">
-            <h2>Refine Your Search</h2>
-          </div>
-          <form>
-            <div class="col-md-3">
-              <label class="control-label" for="venuetype">Venue Type</label>
-              <select id="venuetype" name="venuetype" class="form-control">
-                <option value="">Select Venue</option>
-                <option value="Barn">Resort</option>
-                <option value="Boutique">Boutique</option>
-                <option value="Castle">Private villa (comming soon)</option>
-                <option value="Country House">Club</option>
-              </select>
-            </div>
-            <div class="col-md-3">
-              <label class="control-label" for="capacity">Capacity</label>
-              <select id="capacity" name="capacity" class="form-control">
-                <option value="">Select Capacity</option>
-                <option value="0 - 99">0 - 20</option>
-                <option value="100 - 199">21 - 50</option>
-                <option value="200 - 299">50 - 100</option>
-                <option value="300 - 399">100 - 200</option>
-                <option value="400+">200 +</option>
-              </select>
-            </div>
-            <div class="col-md-3">
-              <label class="control-label" for="price">Price</label>
-              <select id="price" name="price" class="form-control">
-                <option value=""> Select Price</option>
-                <option value="$35 - $50">$500 - $700</option>
-                <option value="$50 - $60">$700 - $1500</option>
-                <option value="$60 - $70">$1500 - $2500</option>
-                <option value="$70 - $80">$2500+</option>
-              </select>
-            </div>
-            <div class="col-md-3">
-              <button type="submit" class="btn tp-btn-default tp-btn-lg btn-block">Search</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
+
   </div>
       <div class="row">
         <div class="col-md-12 vendor-listing">
-          <h2>Venues</h2>
+          <h1>Venues</h1>
+          <h3>Find our available locations in here, read all about them! If you are a venue owner and would like to advertise please <a href="../contact.php">drop us a line</a> and get your venue shots taken for free!</h3>
+          <p>The prices displayed in this page are presented as a "price range" since some of our locations have different prices for different amounts of guests and/or on-site locations, the final price is always settled with our wedding pre-planner.</p>
+
         </div>
         
         <!-- /.venue box start-->
@@ -102,7 +61,7 @@
           <!-- /.venue pic -->
           <div class="vendor-detail"><!-- venue details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title">Mayan Princess</a></h2>
+              <h2><a href="mayan-princess.php" class="title">Mayan Princess</a></h2>
               <p class="location"><i class="fa fa-map-marker"></i>West Bay Beach, touristic area</p>
               <div class="rating pull-left"> <p>A beautiful beach and a wooden hip beach club are waiting for you in this hotel, amazing staff and food to carry out an excuisite event.</p> </div>
             </div>
@@ -116,13 +75,13 @@
         <!-- /.venue box start-->
         <div class="col-md-4 vendor-box"><!-- venue box start-->
           <div class="vendor-image"><!-- venue pic --> 
-            <a href="#"><img src="../images/vendor-3.jpg" alt="wedding venue" class="img-responsive"></a>
+            <a href="grand-roatan.php"><img src="../images/vendor-3.jpg" alt="wedding venue" class="img-responsive"></a>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-facebook"></i></a></div>
           </div>
           <!-- /.venue pic -->
           <div class="vendor-detail"><!-- venue details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title">Grand Roatan</a></h2>
+              <h2><a href="grand-roatan.php" class="title">Grand Roatan</a></h2>
               <p class="location"><i class="fa fa-map-marker"></i>West Bay Beach, touristic area</p>
               <div class="rating pull-left"> <p>An exclusive place in the touristic area, fit for small / medium groups, enjoy the iron shore grill and a beautiful setup.</p> </div>
             </div>
@@ -137,19 +96,19 @@
         
         <div class="col-md-4 vendor-box"><!-- venue box start-->
           <div class="vendor-image"><!-- venue pic --> 
-            <a href="#"><img src="../images/vendor-4.jpg" alt="wedding venue" class="img-responsive"></a>
+            <a href="grand-roatan.php"><img src="../images/vendor-4.jpg" alt="wedding venue" class="img-responsive"></a>
             <div class="favourite-bg"><a href="#" class=""><i class="fa fa-facebook"></i></a></div>
           </div>
           <!-- /.venue pic -->
           <div class="vendor-detail"><!-- venue details -->
             <div class="caption"><!-- caption -->
-              <h2><a href="#" class="title">Paradise Beach Resort</a></h2>
+              <h2><a href="grand-roatan.php" class="title">Paradise Beach Resort</a></h2>
               <p class="location"><i class="fa fa-map-marker"></i>West Bay Beach, touristic area</p>
               <div class="rating pull-left"> <p>If you are looking to party, this is the place to be, no curfew for your guests, conference hall and great vibes!</p> </div>
             </div>
             <!-- /.caption -->
             <div class="vendor-price">
-              <div class="price">$500 - $1500</div>
+              <div class="price">$800 - $5500</div>
             </div>
           </div>
         </div>
@@ -169,26 +128,11 @@
             </div>
             <!-- /.caption -->
             <div class="vendor-price">
-              <div class="price">$1500 - $3000</div>
+              <div class="price">$3500 - $8000</div>
             </div>
           </div>
           <!-- venue details --> 
         </div>
-      
-       
-      
-        
-        <div class="col-md-12 tp-pagination"><!-- Pagination -->
-          <ul class="pagination">
-            <li> <a href="#" aria-label="Previous"> <span aria-hidden="true">Previous</span> </a> </li>
-            <li class="active"><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li> <a href="#" aria-label="Next"> <span aria-hidden="true">NEXT</span> </a> </li>
-          </ul>
-        </div><!-- /.Pagination -->
       </div>
     </div><!-- /.Listing wrap -->
     <div class="col-md-5 map-wrap"><!-- map wrap-->

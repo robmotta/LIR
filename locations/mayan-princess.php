@@ -31,7 +31,14 @@
     <![endif]-->
 </head>
 <body>
-
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6&appId=116829918404353";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <?php 
   include '../snippets/menu.html';
 ?>
@@ -40,14 +47,14 @@
 </div>
 <div id="slider" class="owl-carousel owl-theme slider">
   <div class="item">
-    <div class="slider-pic"><img src="../images/hero-image-3.jpg" alt="Aerial Iron Shore"></div>
+    <div class="slider-pic"><img src="../images/venue-pic-6.jpg" alt="Aerial Iron Shore"></div>
     
   </div>
   <div class="item">
-    <div class="slider-pic"><img src="../images/venue-pic1.jpg" alt="Beachfront GrandRoatan"></div>
+    <div class="slider-pic"><img src="../images/venue-pic-7.jpg" alt="Beachfront GrandRoatan"></div>
   </div>
   <div class="item">
-<div class="slider-pic"><img src="../images/venue-pic2.jpg" alt="Aerial GrandRoatan in West Bay Beach"></div>  </div>
+<div class="slider-pic"><img src="../images/venue-pic-8.jpg" alt="Aerial GrandRoatan in West Bay Beach"></div>  </div>
 </div>
 <div class="tp-breadcrumb">
   <div class="container">
@@ -56,7 +63,7 @@
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
           <li><a href="#">Locations</a></li>
-          <li class="active">Paradise Beach Resort</li>
+          <li class="active">San Simon Beach Club</li>
         </ol>
       </div>
     </div>
@@ -64,12 +71,12 @@
 </div>
 <div class="container venue-header">
   <div class="row venue-head">
-    <div class="col-md-12 title"> <a href="#" class="label-primary">Resort</a>
-      <h1>Paradise Beach Resort</h1>
+    <div class="col-md-12 title"> <a href="#" class="label-primary">Beach Club</a>
+      <h1>San Simon Beach Club</h1>
       <p class="location"><i class="fa fa-map-marker"></i>Located in West Bay Beach, a tourist area with turquoise waters and beautiful white sand beaches.</p>
     </div>
     <div class="col-md-8 rating-box">
-      <div class="rating">Three different on-site locations to chose from.</div>
+      <div class="rating">Hip wooden vibe and a lounge area for evening events.</div>
     </div>
     <div class="col-md-4 venue-action"> <a href="#inquiry" class="btn tp-btn-default">Book Your Event</a> </div>
   </div>
@@ -79,17 +86,16 @@
     <div class="row">
       <div class="col-md-8 page-description">
         <div class="venue-details">
-          <h2>About Paradise Beach Resort</h2>
-          <p>Paradise Beach Resort is re-nown for throwing parties. The Resort is eqquiped with everything to prepare all types of events and the cuisine is one of the best in the island. The Resort offers three different in-house locations (bachfront, poolside with bar and thier all new conference room) that provide versatility when it comes to special events. One thing we can say it, Paradise Beach Resort has it all. </p>
+          <h2>About San Simon Beach Club</h2>
+          <p>San Simon beach club is an Annex from the Mayan Princess which is just beside the Mayan princess hotel installations, the spot is a hip location thanks to the wooden structures that surround the bar area, right in the middle, find an elder mangrove tree creating shadow for the dance area, the bar is located just after the dance floor, a wide bar to keep everyone active! The sand spaces perfect for lounging during the sunset or night. </p>
         </div>
         <div class="row">
           <div class="col-md-12 venue-amenities">
-            <h2>Facilities</h2>
+            <h2>Benefits of chosing this place</h2>
             <ul class="check-circle">
-              <li>Renown Cuisine</li>
-              <li>Pool-side & Bar </li>
-              <li>Beach Front View </li>
-              <li>200 fitting Conference Room</li>
+              <li>Elegant Layout</li>
+              <li>Lounge sits and cocktail tables available.</li>
+              <li>Long Bar area</li>
             </ul>
           </div>
         </div>
@@ -102,6 +108,9 @@
               <li>Free HoneyMoon Suite for the Couple.</li>
             </ul>
           </div>
+
+              <div class="fb-page" data-href="https://www.facebook.com/pages/The-Beach-Club-San-Simon/" data-tabs="timeline" data-width="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GrandRoatan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GrandRoatan/">Grand Roatan Resort</a></blockquote></div>
+
         </div>
         
         <!-- comments -->
@@ -119,7 +128,7 @@
                 <span class="cap-people"> 10 - 200 </span> </div>
               <div class="pricebox">
                 <div>$1,600</div>
-                <span class="price">$19.50 PAX</span></div>
+                <span class="price">$14.50 PAX</span></div>
             </div>
           </div>
           <div class="col-md-12" >
