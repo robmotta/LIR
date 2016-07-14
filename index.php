@@ -95,7 +95,7 @@
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
                 <h2><a href="locations/index.php" class="title">Incredible spots</a></h2>
-                <p class="location">The locations that we offer you have been selected due to their outstanding service and locations. Their professional staff and their rooms will make you feel that you are truly in paradise..</p>
+                <p class="location">The locations that we offer you have been selected due to their outstanding service and unique scenery. Their professional staff and their rooms will make you feel that you are truly in paradise..</p>
                 
               </div>
               <!-- /.caption -->
@@ -113,7 +113,7 @@
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
                 <h2><a href="the-extra-mile.php" class="title">Personal Attention</a></h2>
-                <p class="location">We know how special this date is for you! let our  dedicated team to worry about every little detail, receive support online and ofline once you get to the destination. Worry not and enjoy your staying as you should.</p>
+                <p class="location">We know how special this date is for you! Let our  dedicated team worry about every little detail, receive support online and on-site personal attention once you reach Roatan. Worry not and enjoy your stay.</p>
                 
               </div>
               <!-- /.caption -->
@@ -130,8 +130,8 @@
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="planning/index.php" class="title">Planning &amp; Design</a></h2>
-                <p class="location">Design the  perfect celebration or event  with the help of our professional team of decorators coordinated by your on-site event & wedding planner. Read more about who will be taking care of this details</p>
+                <h2><a href="planning/contact.php" class="title">Planning &amp; Design</a></h2>
+                <p class="location">Design the  perfect celebration or event  with the help of our professional team of decorators coordinated by your on-site event planner. Read more about who will be taking care of these details</p>
                 
               </div>
               <!-- /.caption -->
@@ -149,11 +149,11 @@
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
                 <h2><a href="under-construction.php" class="title">Event Themes</a></h2>
-                <p class="location">Worry not about having a long set-up procedures. We have designed beautiful themes alongside our decor team in order to simplify your planning process with only a few clicks and leaving the stress to us.</p>
+                <p class="location">Don't worry about having a long set-up procedure and making tedious decoration decisions. Let your own event planner send you ideas of pre-built event themes we have already put together.</p>
               </div>
               <!-- /.caption -->
               <div class="vendor-price">
-                <div class="price"><a href="under-construction.php">More Details</a></div>
+                <div class="price"><a href="contact.php">Request ideas</a></div>
               </div>
             </div>
             <!-- venue details --> 
@@ -165,7 +165,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 tp-title-center">
-        <h1>Get everything done going without a drop of stress.</h1>
+        <h1>Quality Assurance for every event.</h1>
       </div>
     </div>
     <div class="row">
@@ -176,8 +176,8 @@
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="the-extra-mile.php" class="title">What's included in our services?</a></h2>
-                <p class="location">Our services include several efficient tools that will make your planning a lot easier. With our planning system you get to sit back and enjoy the island while we take care of the rest. Book your wedding with us and we promise to make your event a remarkable one. </p>
+                <h2><a href="the-extra-mile.php" class="title">Working with us</a></h2>
+                <p class="location">We encourage every small, medium and large business to be part of this hub of important resources for everyone in and outside the island. We are always looking for new venues and suppliers to offer a creative array of options to our visitors. Drop us a line for more information.</p>
                 
               </div>
               <!-- /.caption -->
@@ -194,8 +194,8 @@
             <!-- /.venue pic -->
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
-                <h2><a href="about-rico.php" class="title">Meet Rico Raspaldo</a></h2>
-                <p class="location">An experienced wedding &amp; events planner, has been manager of several important resorts in the caribbean islands and coordinating events is one of his specialties. Get to know him in the <a href="#">about us </a> page to know who's going to take care of your event.</p>
+                <h2><a href="about-rico.php" class="title">Our Event planners</a></h2>
+                <p class="location">Our team is composed of a few renowned Event planners that have over ten years of experience in the business, they will coordinate the rest of the staff that will be in charge of catering your event. Needless to say, quality service is guaranteed.</p>
                 
               </div>
               <!-- /.caption -->
@@ -250,7 +250,7 @@
             <div class="vendor-detail"><!-- venue details -->
               <div class="caption"><!-- caption -->
                 <h2><a href="#" class="title"> Photography & Film Services</a></h2>
-                <p class="location">A wedding is memory for a lifetime. Capture every detail of your wedding and cherish them forever. Roatan is the perfect place for beach weddings. So, take advantage of the natural light and make some memories.</p>
+                <p class="location">A wedding is memory for a lifetime. Capture every detail of your wedding and cherish them forever. Roatan is the perfect place for beach weddings. So, take advantage of the natural light and make some unique memories.</p>
                 
               </div>
               <!-- /.caption -->

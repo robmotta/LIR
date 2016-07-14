@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<title>Wedding Vendor | Find The Best Wedding Vendors</title>
+<title>The Extra Mile | Love In Roatan makes it simpler</title>
 
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -28,18 +28,18 @@
     <![endif]-->
 </head>
 <body>
-
-<?php 
-  include 'snippets/menu.html';
+<?php
+  include'snippets/menu.html';
 ?>
   <!-- /.container-fluid --> 
-
+  
+</div> 
 <div class="tp-page-head"><!-- page header -->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="page-header">
-          <h1>About Wedding Vendor</h1>
+          <h1>The Extra Mile</h1>
         </div>
       </div>
     </div>
@@ -52,7 +52,7 @@
       <div class="col-md-8">
         <ol class="breadcrumb">
           <li><a href="#">Home</a></li>
-          <li class="active">About Wedding Vendor</li>
+          <li class="active">The Extra Mile</li>
         </ol>
       </div>
     </div>
@@ -61,30 +61,16 @@
 <div class="main-container">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 side-nav" id="leftCol">
-        <div class="hide-side">
-          <ul class="listnone nav" id="sidebar">
-            <li class="active"><a href="#aboutus" >About us</a></li>
-            <li><a href="#team">Meet The Team</a></li>
-            <li><a href="#howwork">How it works</a></li>
-            <li><a href="#history">Our History</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-md-9 content-right">
+      
+      <div class="col-md-12 content-right">
         <div class="row">
           <div class="col-md-12 aboutus" id="aboutus">
-            <h1>We are Weddings Finder.</h1>
-            <p class="lead">Welcome to wedding vendor, launch in 2015. We pride our selves on being a trusted friend someone to take on this journey with you making it fun from the start.</p>
-            <p>We will  support you and advise you. We are never short of suggestions or inspiring ideas.Our matchless, which makes finding beautiful wedding venue easier and one less thing for you to worry about.With our inspir blog, suggestions and sensational offers, no one understands weddings better than we do.</p>
+            <h1>We will make your ideas come true.</h1>
+            <p>Although we do have an online inventory available for you to put together your own event, we are are constantly on the lookout of new items and props. If you feel our inventory doesn't have what you need, talk to our wedding pre-planner to discuss your ideas and we will try our best to find what you want.</p>
+            <p>When it comes to events, anything is possible. Our team is prepared to give their utter best in the planification and execution of the event.</p>
 
           </div>
-          <div class="col-md-12">
-            <div class="call-to-action well-box">
-              <h1>Online Wedding Planning </h1>
-              <h3 class="point">Advice &amp; Guide. | Save your date. | Forever free.</h3>
-              <img src="images/cycle-graphic.png" alt="" class="graphic img-responsive"> <a href="#" class="btn tp-btn-default tp-btn-lg">Get start today</a> </div>
-          </div>
+          
           <div class="col-md-12 team-section" id="team">
             <h1>Our Founder</h1>
             <div class="row">

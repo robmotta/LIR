@@ -31,9 +31,6 @@
 <?php 
   include 'snippets/menu.html';
 ?>
-  <!-- /.container-fluid --> 
-  
-</div>
 <div class="tp-page-head"><!-- page header -->
   <div class="container">
     <div class="row">
@@ -62,11 +59,11 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <p>Send us a message and our event pre-planner will contact you as soon as possible.</p>
+        <p>We are always looking to satisfy your every need and improve as a company. If there is anything we can do for you please let us know and we will get back to you as soon as possible.</p>
       </div>
       <div class="col-md-6">
         <div class="well-box">
-          <form >
+          <form action="/LIR/php/email.php" method="POST">
             
             <!-- Text input-->
             <div class="form-group">
@@ -98,6 +95,7 @@
             <div class="form-group">
               <label class=" control-label" for="category">Category <span class="required">*</span></label>
               <select id="category" name="category" class="form-control selectpicker">
+                <option value="event">Event</option>
                 <option value="Couple">Wedding</option>
                 <option value="Vendor">Wedding (Cruise Ship)</option>
                 <option value="Advertisement">Advertise</option>
@@ -134,12 +132,7 @@
           </ul>
         </div>
       </div>
-      <div class="col-md-6">
-        <div class="well-box">
-          <h2>Affiliate program ?</h2>
-          <p>We have .</p>
-        </div>
-      </div>
+     
     </div>
   </div>
 </div>
