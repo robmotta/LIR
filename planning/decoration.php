@@ -1,10 +1,57 @@
 <?php
-  //session_start();
-  //$_SESSION['location'] = $_POST['resort'];
-  //$_SESSION['price'] = $_POST['price'];
-  //$_SESSION['subtotal'] = $_POST['subtotal'];
+  session_start();
 
-  //var_dump($_SESSION);
+   if(!isset($_POST['event-type'])){
+    $_SESSION['etype'] = '';
+      }else{
+        $_SESSION['etype'] = $_POST['event-type'];
+      };
+
+    if(!isset($_POST['name'])){
+    $_SESSION['cname'] = '';
+      }else{
+        $_SESSION['cname'] = $_POST['name'];
+      };
+
+    if(!isset($_POST['email'])){
+    $_SESSION['email'] = '';
+      }else{
+        $_SESSION['email'] = $_POST['email'];
+      };
+
+    if(!isset($_POST['date'])){
+        $_SESSION['date'] = '';
+      }else{
+        $_SESSION['date'] = $_POST['date'];
+      };
+  
+  if(isset($_GET['location'])){
+    $_SESSION['location'] = $_GET['location'];
+   }elseif(isset($_POST['location'])) {
+     $_SESSION['location'] = $_POST['resort'];
+   }elseif(!isset($_GET['location']) && !isset($_POST['location'])){
+    $_SESSION['location'] = '';
+  };
+  
+  if(!isset($_POST['price'])){
+    $_SESSION['price'] = '';
+  }else{
+    $_SESSION['price'] = $_POST['price'];
+  };
+  
+  if(!isset($_POST['price'])){
+    $_SESSION['price'] = '';
+  }else{
+    $_SESSION['price'] = $_POST['price'];
+  };
+
+  if(!isset($_POST['subtotal'])){
+    $_SESSION['subtotal'] = '';
+  }else{
+    $_SESSION['subtotal'] = $_SESSION['subtotal'];
+  };
+
+  var_dump($_SESSION);
 ?>
 
 <!DOCTYPE html>
@@ -38,49 +85,11 @@
 </head>
 <body>
 
-<div class="popup">
-  <div style="width: 100%; height: 100%;top: 0; position: fixed; background-color: rgba(22,22,22,0.5);z-index:990;">
-      <div style="width:50%; padding:50px; display:inline-block; background-color:#fff; position:fixed; top:25%; left:33%;">
-          <div class="container">
-              <div class="row">
-                <div class="col-md-3">
-                </div>
-                <div class="col-md-3">
-                  <h2 class="tp-title-center">Before we proceed.</h2>
-                  <p> There is some information we need to catch up on before we continue. Please fill in the following:</p>
-                  <form>
-                    <input class="form-control" type="hidden" name="from" />
-                    <label for="name">Name:</label>
-                    <input type="text" class="form-control" name="name"/>
-                    <br>
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" name="email" required/>
-                    <br>
-                    <label for="eventType">Event type</label>
-                    <select name="event-type" class="form-control selectpicker">
-                      <option>What kind of event?</option>
-                      <option value="wedding">Wedding</option>
-                      <option value="party">Party</option>
-                      <option value="convention">Convention</option>
-                      <option value="BR">Business Retreat</option>
-                      <option value="other">Other</option>
-                    </select>
-                    <br>
-                    <input type="date" name="date" class="form-control" />
-                    <br>
-                    <input type="button" name="sbmt" value="Continue" class="form-control" />
-                  </form>
-                </div>
-                <div class="col-md-3">
-                </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  
-</div>
-
+<?php 
+ if($_SESSION['email'] == '' || $_SESSION['name'] == ''){
+  include '../snippets/deco-form.html';
+ };
+?>
 
 
 
@@ -1237,6 +1246,12 @@
       <div class="col-md-4 newsletter">
         <h2>Newsletter</h2>
         <form >
+          <?php if($_SESSION['etype'] == ''){
+            echo '<input type="hidden" name="etype">';
+          } ?>
+          <?php if($_SESSION['date'] == ''){
+            echo '<input type="hidden" name="date">';
+          } ?>
           <div class="input-group">
             <input type="text" id="sub-text" class="form-control" placeholder="Enter E-Mail Address" required>
             <span class="input-group-btn">

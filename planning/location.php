@@ -3,6 +3,9 @@
 
   $_SESSION['cname'] =  $_POST['name'];
   $_SESSION['email'] =  $_POST['email'];
+
+
+  var_dump($_SESSION);
 ?>
 
 <!DOCTYPE html>
